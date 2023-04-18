@@ -38,7 +38,7 @@ function onImageClick (evt){
     instance.show(); 
 
     
-
+    
     // закрытие
     gallaryContainer.addEventListener('keydown', (evt) => {
       if(evt.code === 'Escape') {
@@ -46,3 +46,8 @@ function onImageClick (evt){
       }
     })
 };
+
+const gallaryLightboxContainer = new SimpleLightbox('.gallery a', { 
+  captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250 
+});
+

@@ -19,10 +19,7 @@ const images = galleryItems.map(({preview, original, description}) => `
  
 gallaryContainer.insertAdjacentHTML('beforeend', images);  
  
- 
 const gallaryLightboxContainer = new SimpleLightbox('.gallery a', { 
   captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250 
 });
-
-
 

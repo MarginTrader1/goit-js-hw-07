@@ -22,7 +22,7 @@ const images = galleryItems
    )
    .join("");
 
-//вставляем разметку в тег c переменной gallaryContainer
+//вставляем разметку в тег <ul>
 gallaryContainer.innerHTML = images;
 
 //инициализируем библиотеку
